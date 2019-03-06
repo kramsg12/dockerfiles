@@ -1,5 +1,4 @@
-#!/bin/sh
-
+#!/bin/bash
 umask 002
 echo "::10" > /config/auth
 sleep 60 && \
